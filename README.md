@@ -1,5 +1,5 @@
 <h3 align="center">
-    <a href="https://gobarbertranslations.netlify.app/">Acessar a demonstração do site</a>
+    <a href="https://gama-academy-airbnb.netlify.app/">Acessar a demonstração do site</a>
 <h3>
 
 <img src="./assets/desktop.gif">
