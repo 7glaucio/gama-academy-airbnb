@@ -94,3 +94,17 @@ function orderByPriceDecreasing() {
 
   renderCards(data);
 }
+
+function handleSearch() {
+  let valueInput = document.querySelector("#searchInput").value.toUpperCase();
+
+  const filteredResults = data.filter((places) => {
+    const placesToSearchByName = places.name.toUpperCase();
+
+    if (placesToSearchByName.search(valueInput) > -1) {
+      return places;
+    }
+  });
+
+  renderCards(filteredResults);
+}
